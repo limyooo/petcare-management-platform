@@ -1,0 +1,15 @@
+2026-02-10 15:47:50.535 [main] DEBUG com.han.LogTest-开始计算
+2026-02-10 15:47:50.536 [main] INFO  com.han.LogTest-计算结果为: 101
+2026-02-10 15:47:50.537 [main] DEBUG com.han.LogTest-结束计算
+2026-02-10 16:12:47.770 [main] DEBUG com.han.LogTest-开始计算
+2026-02-10 16:12:47.772 [main] INFO  com.han.LogTest-计算结果为: 101
+2026-02-10 16:12:47.772 [main] DEBUG com.han.LogTest-结束计算
+2026-02-10 16:12:47.772 [main] TRACE com.han.LogTest-trace..
+2026-02-10 16:12:47.772 [main] WARN  com.han.LogTest-warn..
+2026-02-10 16:12:47.772 [main] ERROR com.han.LogTest-error..
+2026-02-10 16:12:54.344 [main] DEBUG com.han.LogTest-开始计算
+2026-02-10 16:12:54.346 [main] INFO  com.han.LogTest-计算结果为: 101
+2026-02-10 16:12:54.346 [main] DEBUG com.han.LogTest-结束计算
+2026-02-10 16:12:54.346 [main] TRACE com.han.LogTest-trace..
+2026-02-10 16:12:54.346 [main] WARN  com.han.LogTest-warn..
+2026-02-10 16:12:54.346 [main] ERROR com.han.LogTest-error..
