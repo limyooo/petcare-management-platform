@@ -26,3 +26,9 @@ logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug
 
+#oss
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: java-petcare
+    region: cn-beijing
