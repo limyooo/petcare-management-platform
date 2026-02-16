@@ -1,0 +1,110 @@
+2026-02-16 12:29:08.572 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 12:29:08.911 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 12:36:39.608 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 46212 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 12:36:39.612 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:36:42.044 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 12:36:42.052 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:36:42.052 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 12:36:42.052 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 12:36:42.097 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 12:36:42.097 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 2438 ms
+2026-02-16 12:36:44.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:36:44.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:36:44.887 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 5.759 seconds (process running for 14.78)
+2026-02-16 12:40:04.718 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 12:40:05.180 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 12:40:18.677 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 46436 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 12:40:18.678 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:40:19.329 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 12:40:19.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:40:19.337 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 12:40:19.337 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 12:40:19.357 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 12:40:19.357 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 660 ms
+2026-02-16 12:40:19.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:40:19.797 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:40:19.802 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.334 seconds (process running for 4.751)
+2026-02-16 12:40:55.028 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:40:55.031 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:40:55.051 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 20 ms
+2026-02-16 12:40:55.083 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-02-16 12:41:47.283 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=5, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 12:41:47.394 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 12:41:47.909 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f27b9f6
+2026-02-16 12:41:47.911 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 12:43:06.402 [http-nio-8080-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value]
+2026-02-16 12:44:17.222 [http-nio-8080-exec-7] INFO  com.han.controller.OwnerController-保存员工:Owner(id=null, name=Lisa, phone=18800000231, gender=2, email=Lisa.w@mail.com, address=33 Oxford Street, LA, createTime=null, updateTime=null)
+2026-02-16 12:44:33.907 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 12:44:33.992 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 12:44:34.060 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 12:44:34.148 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-16 12:47:19.424 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 46601 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 12:47:19.425 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:47:19.958 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 12:47:19.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:47:19.964 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 12:47:19.964 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 12:47:19.988 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 12:47:19.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 519 ms
+2026-02-16 12:47:20.335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:47:20.344 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:47:20.349 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.136 seconds (process running for 2.916)
+2026-02-16 12:49:50.973 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:49:50.989 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:49:51.042 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 52 ms
+2026-02-16 12:49:51.172 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'ids' for method parameter type List is not present]
+2026-02-16 12:52:36.382 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-删除员工：[17]
+2026-02-16 12:52:36.505 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 12:52:36.991 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27be30fc
+2026-02-16 12:52:36.994 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 12:52:43.128 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 12:52:43.138 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 12:52:43.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 12:52:43.161 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-16 12:58:38.416 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 46789 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 12:58:38.418 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 12:58:38.934 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 12:58:38.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:58:38.943 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 12:58:38.943 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 12:58:38.968 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 12:58:38.968 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 532 ms
+2026-02-16 12:58:39.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 12:58:39.346 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 12:58:39.351 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.126 seconds (process running for 3.188)
+2026-02-16 12:58:45.088 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 12:58:45.088 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 12:58:45.090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-02-16 12:58:45.116 [http-nio-8080-exec-1] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=5, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 12:58:45.162 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 12:58:45.456 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34edb251
+2026-02-16 12:58:45.457 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 12:59:44.320 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'ids' for method parameter type List is not present]
+2026-02-16 13:01:17.951 [http-nio-8080-exec-4] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=5, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 13:02:28.896 [http-nio-8080-exec-8] INFO  com.han.controller.OwnerController-查询员工：1
+2026-02-16 13:02:38.964 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 13:02:38.985 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 13:02:38.998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 13:02:39.021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-16 13:04:44.169 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 46877 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 13:04:44.170 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 13:04:44.665 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 13:04:44.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 13:04:44.673 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 13:04:44.673 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 13:04:44.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 13:04:44.699 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 507 ms
+2026-02-16 13:04:45.056 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 13:04:45.063 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 13:04:45.068 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.095 seconds (process running for 2.867)
+2026-02-16 13:05:17.780 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 13:05:17.782 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 13:05:17.788 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+2026-02-16 13:05:23.625 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-更新员工：Owner(id=1, name=James Wilson, phone=18800000301, gender=1, email=james.w@mail.com, address=88 Oxford Street, London, createTime=2026-02-15T16:26:28, updateTime=2026-02-15T16:26:28)
+2026-02-16 13:05:23.658 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 13:05:23.883 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34379092
+2026-02-16 13:05:23.886 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 13:05:31.294 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 13:05:31.308 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 13:05:31.313 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 13:05:31.321 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
