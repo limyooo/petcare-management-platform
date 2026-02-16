@@ -34,8 +34,8 @@ public class DeptController {
     }
     /*删除*/
     //requestParam,该参数在请求时必须传递，要不然就会报错，默认required为true
-    @DeleteMapping
-    public Result delete(Integer id){
+    @DeleteMapping("/{id}")
+    public Result delete(@PathVariable Integer id){
         //System.out.println("根据id删除部门: {}", id);
         log.info("根据id删除部门"+ id);
         deptService.deleteById(id);

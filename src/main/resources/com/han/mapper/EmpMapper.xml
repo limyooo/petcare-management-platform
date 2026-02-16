@@ -49,7 +49,7 @@
 
     <select id="list" resultType="com.han.pojo.Emp">
 
-        select e.*, d.name
+        select e.*, d.name dept_name
         from emp e
         left join pet_department d on e.dept_id = d.id
         <where>

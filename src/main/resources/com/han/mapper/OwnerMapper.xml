@@ -75,7 +75,7 @@
         COUNT(*) AS num
         FROM pet_owner
         WHERE address IS NOT NULL
-        GROUP BY name
+        GROUP BY TRIM(SUBSTRING_INDEX(address, ',', -1))
         ORDER BY num DESC
     </select>
 
