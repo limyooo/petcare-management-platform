@@ -18,6 +18,7 @@ import java.util.Map;
 public class ReportController {
     @Autowired
     private ReportService reportService;
+
     @GetMapping("/empJobData")
     public Result getEmpJobData(){
         log.info("获取员工工作数据");
@@ -29,5 +30,17 @@ public class ReportController {
         log.info("获取员工性别数据");
          List<Map<String, Object>> genderList = reportService.getEmpGenderData();
         return Result.success(genderList);
+    }
+    @GetMapping("/ownerGenderData")
+    public Result getOwnerGenderData(){
+        log.info("获取customer性别数据");
+        List<Map<String, Object>> genderList = reportService.getOwnerGenderData();
+        return Result.success(genderList);
+    }
+    @GetMapping("/ownerAddressData")
+    public Result getOwnerAddressData(){
+        log.info("获取customer地址数据");
+        List<Map<String, Object>> addressList = reportService.getOwnerAddressData();
+        return Result.success(addressList);
     }
 }

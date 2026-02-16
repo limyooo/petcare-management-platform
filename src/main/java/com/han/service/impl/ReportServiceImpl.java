@@ -1,6 +1,7 @@
 package com.han.service.impl;
 
 import com.han.mapper.EmpMapper;
+import com.han.mapper.OwnerMapper;
 import com.han.pojo.JobOption;
 import com.han.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ import java.util.Map;
 public class ReportServiceImpl implements ReportService {
     @Autowired
     private EmpMapper empMapper;
+    @Autowired
+    private OwnerMapper ownerMapper;
     @Override
     public JobOption getEmpJobData() {
         //调用mapper接口，获取统计数据
@@ -27,5 +30,15 @@ public class ReportServiceImpl implements ReportService {
     public List<Map<String, Object>> getEmpGenderData() {
 
         return empMapper.countEmpGenderDate();
+    }
+
+    @Override
+    public List<Map<String, Object>> getOwnerGenderData() {
+        return ownerMapper.countByGender();
+    }
+
+    @Override
+    public List<Map<String, Object>> getOwnerAddressData() {
+        return ownerMapper.countByAddress();
     }
 }
