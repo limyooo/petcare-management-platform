@@ -1,0 +1,278 @@
+2026-02-17 00:14:29.985 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m43s471ms).
+2026-02-17 01:01:38.497 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m8s511ms).
+2026-02-17 01:20:15.182 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m36s685ms).
+2026-02-17 02:11:21.304 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m6s123ms).
+2026-02-17 03:32:26.319 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m5s7ms).
+2026-02-17 04:56:17.423 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m51s110ms).
+2026-02-17 05:57:31.539 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m14s117ms).
+2026-02-17 06:57:01.566 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m30s26ms).
+2026-02-17 08:18:16.017 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m14s451ms).
+2026-02-17 08:42:30.681 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m14s666ms).
+2026-02-17 09:26:32.304 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m1s623ms).
+2026-02-17 10:00:21.016 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m48s710ms).
+2026-02-17 10:27:34.655 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m13s639ms).
+2026-02-17 11:08:45.691 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m11s37ms).
+2026-02-17 11:26:49.761 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m4s71ms).
+2026-02-17 12:07:29.373 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m39s612ms).
+2026-02-17 12:20:26.764 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m57s391ms).
+2026-02-17 12:50:23.958 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m57s135ms).
+2026-02-17 13:01:43.279 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m19s376ms).
+2026-02-17 13:04:03.497 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s969ms).
+2026-02-17 13:26:51.082 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 13:26:51.215 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-17 13:26:51.296 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-17 13:26:51.339 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-17 14:13:04.033 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 68940 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-17 14:13:04.035 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-17 14:13:04.702 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-17 14:13:04.711 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 14:13:04.712 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-17 14:13:04.712 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 14:13:04.739 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-17 14:13:04.739 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 679 ms
+2026-02-17 14:13:05.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 14:13:05.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 14:13:05.243 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.463 seconds (process running for 4.31)
+2026-02-17 14:13:14.903 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 14:13:14.905 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-17 14:13:14.911 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2026-02-17 14:13:14.932 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-登录接口,放行
+2026-02-17 14:13:14.995 [http-nio-8080-exec-2] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 14:13:15.015 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-17 14:13:15.543 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ae7756d
+2026-02-17 14:13:15.544 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-17 14:13:15.665 [http-nio-8080-exec-2] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 14:16:01.544 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-登录接口,放行
+2026-02-17 14:16:01.568 [http-nio-8080-exec-5] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 14:16:01.674 [http-nio-8080-exec-5] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 14:16:01.710 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:05.344 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:05.349 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:08.393 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:10.023 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:10.033 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:11.890 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:12.808 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:12.814 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:15.206 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:15.215 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:16.056 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:16:16.064 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌为空,401
+2026-02-17 14:17:16.800 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-17 14:17:16.838 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-17 14:17:16.879 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-17 14:17:16.965 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-17 16:05:21.962 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 70858 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-17 16:05:21.965 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-17 16:05:22.485 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-17 16:05:22.492 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-17 16:05:22.493 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-17 16:05:22.493 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-17 16:05:22.515 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-17 16:05:22.515 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 531 ms
+2026-02-17 16:05:22.861 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-17 16:05:22.868 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-17 16:05:22.873 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.121 seconds (process running for 3.496)
+2026-02-17 16:05:28.854 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-17 16:05:28.858 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-17 16:05:28.861 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2026-02-17 16:05:28.946 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:28.952 [http-nio-8080-exec-2] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:28.963 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-17 16:05:29.241 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43312971
+2026-02-17 16:05:29.242 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-17 16:05:30.486 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:30.486 [http-nio-8080-exec-3] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:30.497 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:30.506 [http-nio-8080-exec-5] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:05:31.751 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:31.757 [http-nio-8080-exec-7] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-17 16:05:32.445 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:32.449 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:32.450 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:32.451 [http-nio-8080-exec-1] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:33.492 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:33.492 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:33.494 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:05:33.494 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:05:34.691 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:34.692 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:34.698 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:34.699 [http-nio-8080-exec-7] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:35.593 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:35.593 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:36.368 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:36.369 [http-nio-8080-exec-10] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:36.378 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:36.380 [http-nio-8080-exec-2] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:05:36.888 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:36.889 [http-nio-8080-exec-4] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:37.529 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:37.530 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-17 16:05:38.196 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:38.197 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:38.200 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:38.200 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:38.876 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:38.877 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:05:38.881 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:38.881 [http-nio-8080-exec-4] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:05:41.193 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:41.194 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:41.206 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:41.206 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:43.363 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:43.364 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:44.575 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:44.576 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:44.576 [http-nio-8080-exec-1] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:44.576 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:45.875 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:45.876 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:05:45.881 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:45.881 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:05:47.142 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:47.142 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:47.152 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:47.154 [http-nio-8080-exec-9] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:05:47.888 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:47.889 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:48.677 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:48.678 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:48.683 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:48.684 [http-nio-8080-exec-1] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:49.445 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:49.445 [http-nio-8080-exec-4] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:05:49.452 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:49.453 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:05:50.006 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:50.007 [http-nio-8080-exec-7] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:50.012 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:50.013 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:05:50.525 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:50.525 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:05:50.532 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:50.533 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:05:52.215 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:52.216 [http-nio-8080-exec-1] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-17 16:05:52.961 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:52.961 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:52.968 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:52.971 [http-nio-8080-exec-3] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:05:54.304 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:54.305 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:05:55.352 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:55.352 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:05:55.354 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:05:55.354 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:07:31.503 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:31.507 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:07:40.739 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:40.741 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:07:51.999 [http-nio-8080-exec-9] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 16:07:52.478 [http-nio-8080-exec-9] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 16:07:52.521 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:52.521 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:07:53.994 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:53.995 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:07:54.001 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:54.002 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:07:55.614 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:55.615 [http-nio-8080-exec-3] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:07:56.288 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:56.289 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:07:56.291 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:56.294 [http-nio-8080-exec-9] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:07:57.114 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:57.115 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:07:57.124 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:07:57.125 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:08:00.208 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:08:00.210 [http-nio-8080-exec-4] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:08:01.042 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:08:01.042 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:08:01.047 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:08:01.048 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:09:39.091 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:39.096 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:09:44.024 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:44.024 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:44.027 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:09:44.027 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:09:45.211 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:45.211 [http-nio-8080-exec-7] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:09:45.215 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:45.215 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:09:46.224 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:46.225 [http-nio-8080-exec-1] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:09:46.229 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:46.235 [http-nio-8080-exec-4] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:09:46.929 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:46.930 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:09:46.948 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:46.948 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:09:47.807 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:47.807 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:09:47.811 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:47.811 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:09:48.555 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:48.555 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:09:49.205 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:49.205 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:09:49.212 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:49.213 [http-nio-8080-exec-1] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:09:49.958 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:09:49.958 [http-nio-8080-exec-4] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:17.535 [http-nio-8080-exec-2] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 16:10:17.606 [http-nio-8080-exec-2] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 16:10:17.642 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:17.642 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:18.672 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:18.673 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:18.682 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:18.683 [http-nio-8080-exec-10] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:10:20.053 [http-nio-8080-exec-4] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:20.054 [http-nio-8080-exec-4] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 16:10:20.057 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:20.057 [http-nio-8080-exec-5] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 16:10:21.078 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:21.078 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-17 16:10:21.081 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:21.081 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-17 16:10:22.263 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:22.263 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:22.268 [http-nio-8080-exec-10] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:22.276 [http-nio-8080-exec-10] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:10:23.431 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:23.431 [http-nio-8080-exec-1] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:24.112 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:24.113 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 16:10:24.126 [http-nio-8080-exec-2] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:24.127 [http-nio-8080-exec-2] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-17 16:10:24.794 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:24.795 [http-nio-8080-exec-6] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-17 16:10:27.992 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 16:10:27.994 [http-nio-8080-exec-9] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 17:01:26.459 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s858ms).
+2026-02-17 17:03:09.114 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s663ms).
+2026-02-17 17:18:00.427 [http-nio-8080-exec-8] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 17:18:00.651 [http-nio-8080-exec-8] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 17:18:00.800 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 17:18:00.800 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 17:18:05.905 [http-nio-8080-exec-6] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 17:18:05.905 [http-nio-8080-exec-3] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 17:18:05.906 [http-nio-8080-exec-6] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-17 17:18:05.906 [http-nio-8080-exec-3] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-17 17:18:07.361 [http-nio-8080-exec-7] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 17:18:07.362 [http-nio-8080-exec-7] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 17:29:39.151 [http-nio-8080-exec-5] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 17:29:39.170 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 17:38:19.357 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m39s79ms).
+2026-02-17 18:12:44.799 [http-nio-8080-exec-3] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-17 18:12:44.936 [http-nio-8080-exec-3] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-17 18:12:45.050 [http-nio-8080-exec-9] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 18:12:45.051 [http-nio-8080-exec-9] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 18:12:59.858 [http-nio-8080-exec-1] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 18:12:59.858 [http-nio-8080-exec-8] INFO  com.han.interceptor.TokenInterceptor-令牌正确,放行
+2026-02-17 18:12:59.861 [http-nio-8080-exec-1] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-17 18:12:59.875 [http-nio-8080-exec-8] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)

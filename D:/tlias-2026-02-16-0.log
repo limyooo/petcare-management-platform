@@ -2071,3 +2071,111 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be nul
 2026-02-16 14:40:11.880 [http-nio-8080-exec-2] INFO  com.han.controller.DeptController-Query all departmental data
 2026-02-16 14:40:11.899 [http-nio-8080-exec-3] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
 2026-02-16 14:40:17.145 [http-nio-8080-exec-4] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 14:44:04.106 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 14:44:04.136 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 14:44:04.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 14:44:04.181 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-16 16:05:48.525 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 62474 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 16:05:48.528 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 16:05:49.153 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 16:05:49.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 16:05:49.163 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 16:05:49.163 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 16:05:49.209 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 16:05:49.209 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 654 ms
+2026-02-16 16:05:49.671 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 16:05:49.680 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 16:05:49.685 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.501 seconds (process running for 4.639)
+2026-02-16 16:06:59.982 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 16:06:59.985 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 16:06:59.998 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 13 ms
+2026-02-16 16:07:08.424 [http-nio-8080-exec-3] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:07:08.481 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 16:07:08.838 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa9e4df
+2026-02-16 16:07:08.839 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 16:07:23.017 [http-nio-8080-exec-4] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=12345, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:07:30.687 [http-nio-8080-exec-5] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:09:55.159 [http-nio-8080-exec-8] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board1, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:09:57.178 [http-nio-8080-exec-9] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board1, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:10:27.346 [http-nio-8080-exec-1] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:10:27.566 [http-nio-8080-exec-3] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:31.792 [http-nio-8080-exec-4] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:31.872 [http-nio-8080-exec-5] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:10:33.316 [http-nio-8080-exec-6] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:10:36.341 [http-nio-8080-exec-7] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:10:36.899 [http-nio-8080-exec-8] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:10:37.689 [http-nio-8080-exec-9] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:37.698 [http-nio-8080-exec-10] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:10:38.150 [http-nio-8080-exec-2] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:38.671 [http-nio-8080-exec-1] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:38.678 [http-nio-8080-exec-3] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:10:39.289 [http-nio-8080-exec-4] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:39.801 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:40.215 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:10:40.223 [http-nio-8080-exec-7] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:10:41.211 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-16 16:10:41.216 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-16 16:10:42.383 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-16 16:10:42.389 [http-nio-8080-exec-2] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-16 16:12:13.214 [http-nio-8080-exec-5] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 16:12:13.346 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:13:53.837 [http-nio-8080-exec-9] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:13:53.861 [http-nio-8080-exec-8] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:13:56.390 [http-nio-8080-exec-10] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:13:59.442 [http-nio-8080-exec-2] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=2, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:14:00.436 [http-nio-8080-exec-1] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:14:01.495 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=2, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:14:02.465 [http-nio-8080-exec-4] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 16:14:10.315 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:14:11.829 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:14:11.854 [http-nio-8080-exec-7] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 16:14:23.988 [http-nio-8080-exec-9] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=Lisa, gender=null, begin=null, end=null)
+2026-02-16 16:14:26.918 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 16:35:47.905 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m8s572ms).
+2026-02-16 16:58:29.136 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-16 16:58:29.249 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-02-16 16:58:29.317 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-02-16 16:58:29.343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-02-16 17:29:32.962 [main] INFO  com.han.PetcareManagementPlatformApplication-Starting PetcareManagementPlatformApplication using Java 19.0.2 with PID 66183 (/Users/hanlinyao/Desktop/petcare-management/petcare-management-platform/target/classes started by hanlinyao in /Users/hanlinyao/Desktop/petcare-management/petcare-management-platform)
+2026-02-16 17:29:32.970 [main] INFO  com.han.PetcareManagementPlatformApplication-No active profile set, falling back to 1 default profile: "default"
+2026-02-16 17:29:33.693 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-02-16 17:29:33.699 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-16 17:29:33.700 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-02-16 17:29:33.700 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-16 17:29:33.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-02-16 17:29:33.719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 727 ms
+2026-02-16 17:29:34.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-02-16 17:29:34.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-02-16 17:29:34.089 [main] INFO  com.han.PetcareManagementPlatformApplication-Started PetcareManagementPlatformApplication in 1.316 seconds (process running for 1.961)
+2026-02-16 17:29:47.732 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-16 17:29:47.751 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-02-16 17:29:47.804 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 51 ms
+2026-02-16 17:29:48.305 [http-nio-8080-exec-2] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 17:29:48.402 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-02-16 17:29:49.364 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4729391e
+2026-02-16 17:29:49.366 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-02-16 17:29:49.434 [http-nio-8080-exec-2] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-16 17:30:13.979 [http-nio-8080-exec-4] INFO  com.han.controller.LoginController-员工登录:Emp(id=null, username=board01, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-02-16 17:30:14.160 [http-nio-8080-exec-4] INFO  com.han.service.impl.EmpServiceImpl-员工登录成功:Emp(id=1, username=board01, password=123456, name=Alice, gender=2, phone=13300000001, job=1, salary=6000, image=avatar1.png, entryDate=2021-03-01, deptId=1, createTime=2026-02-11T14:42:43, updateTime=2026-02-11T14:42:43, deptName=null, exprList=null)
+2026-02-16 17:30:14.193 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 17:31:31.564 [http-nio-8080-exec-9] INFO  com.han.controller.ReportController-获取员工性别数据
+2026-02-16 17:31:31.564 [http-nio-8080-exec-8] INFO  com.han.controller.ReportController-获取员工工作数据
+2026-02-16 17:31:32.887 [http-nio-8080-exec-10] INFO  com.han.controller.ReportController-获取customer性别数据
+2026-02-16 17:31:32.894 [http-nio-8080-exec-1] INFO  com.han.controller.ReportController-获取customer地址数据
+2026-02-16 17:31:34.915 [http-nio-8080-exec-2] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 17:31:40.317 [http-nio-8080-exec-3] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=2, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 17:31:41.510 [http-nio-8080-exec-4] INFO  com.han.controller.OwnerController-分页查询参数：OwnerQueryParam(page=1, pageSize=10, name=null, gender=null, phone=null, begin=null, end=null)
+2026-02-16 17:31:42.447 [http-nio-8080-exec-5] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 17:31:44.207 [http-nio-8080-exec-6] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 17:31:44.222 [http-nio-8080-exec-7] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=Lisa, gender=null, begin=null, end=null)
+2026-02-16 17:31:45.295 [http-nio-8080-exec-9] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 17:31:45.898 [http-nio-8080-exec-8] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 17:31:45.911 [http-nio-8080-exec-10] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=Lisa, gender=null, begin=null, end=null)
+2026-02-16 17:31:48.114 [http-nio-8080-exec-1] INFO  com.han.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=null, begin=null, end=null)
+2026-02-16 17:31:50.193 [http-nio-8080-exec-2] INFO  com.han.controller.DeptController-Query all departmental data
+2026-02-16 18:56:54.368 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m31s393ms).
+2026-02-16 19:34:37.565 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s361ms).
+2026-02-16 20:35:32.990 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h55s445ms).
+2026-02-16 21:36:34.123 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m1s133ms).
+2026-02-16 22:35:12.216 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m38s94ms).
+2026-02-16 23:26:46.515 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m34s298ms).

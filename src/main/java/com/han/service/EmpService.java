@@ -2,6 +2,7 @@ package com.han.service;
 
 import com.han.pojo.Emp;
 import com.han.pojo.EmpQueryParam;
+import com.han.pojo.LoginInfo;
 import com.han.pojo.PageResult;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -20,5 +21,7 @@ public interface EmpService {
     Emp getInfo(Integer id);
 
     void update(Emp emp);
+
+    LoginInfo login(Emp emp);
 }
 

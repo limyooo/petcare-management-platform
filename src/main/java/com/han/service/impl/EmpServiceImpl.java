@@ -7,6 +7,8 @@ import com.han.mapper.EmpMapper;
 import com.han.pojo.*;
 import com.han.service.EmpLogService;
 import com.han.service.EmpService;
+import com.han.utils.JwtUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Service;
@@ -16,9 +18,11 @@ import org.springframework.util.CollectionUtils;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-
+@Slf4j
 @Service
 public class EmpServiceImpl implements EmpService {
 @Autowired
@@ -97,6 +101,22 @@ private EmpLogService empLogService;
 
         //先删除
         //在添加
+    }
+
+    @Override
+    public LoginInfo login(Emp emp) {
+        Emp e = empMapper.selectByUsernameAndPassword(emp);
+        if(e != null){
+            log.info("员工登录成功:{}", e);
+            // 生成jwt
+            Map<String, Object> claims = new HashMap<>();
+            claims.put("id", e.getId());
+            claims.put("username", e.getUsername());
+            String token = JwtUtils.generateJwt(claims);
+
+            return new LoginInfo(e.getId(), e.getUsername(), e.getName(), token);
+        }
+        return null;
     }
 
 
